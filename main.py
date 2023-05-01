@@ -3,6 +3,8 @@ import requests
 import telebot
 from telebot import types
 
+print("Program started")
+
 bot = telebot.TeleBot("5857391463:AAG3SH7AVNjHWYmPT4hfUIRQ0rFwus2skQg")
 
 @bot.message_handler(commands=['start'])
